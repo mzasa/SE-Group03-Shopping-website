@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Đây là source code của phần Backend ứng dụng MERN APP - BLOG trên kênh youtube HoleTex https://www.youtube.com/watch?v=khcjRUZCufs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.1",
+    "mongoose": "^5.13.14",
+    "nodemon": "^2.0.19"
+  }
+}
